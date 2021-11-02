@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.head-info{
+    display: flex;
+
+}
+
+.head-logo{
+    display: flex;
+
+}
+
+.head-logo img{
+    margin-top: 35px;
+    margin-left: 345px;
+    margin-right: 60px;
+    width: 130px;
+    height: 22px;
+}
+
+.head-logo-info{
+    display: flex;
+    margin-top: 33px;
+}
+
+.head-logo-info a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.head-logo-phone{
+    display: flex;
+}
+
+.head-logo-phone img{
+    width: 40px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 27px;
+}
+
+.Call {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    color: #424551;
+    margin-top: 22px;
+    margin-left: 12px;
+}
+
+.Call a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    color: #1E212C;
+    text-decoration: none;
+}
+
+.head-logo-chat{
+    display: flex;
+}
+
+.head-logo-chat img{
+    width: 40px;
+    height: 40px;
+    margin-top: 26px;
+    margin-left: 36px;
+}
+
+.Talk{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    color: #424551;
+    margin-top: 22px;
+    margin-left: 12px;
+}
+
+.Talk a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    color: #1E212C;
+}
+
+.construction{
+    width: 1920px;
+    height: 988px;
+    left: 0px;
+    top: 92px;
+    background: linear-gradient(0deg, rgba(30, 33, 44, 0.6), rgba(30, 33, 44, 0.6)), url(./img/bg-image.jpg);
+    margin-top: 20px;
+}
+
+.zagol{
+    width: 577px;
+    height: 188px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    padding-top: 220px;
+    padding-left: 345px;
+}
+
+.opisanie{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-left: 345px;
+    font-weight: 100;
+}
+
+.otpravka{
+    display: flex;
+}
+
+.forma{
+    width: 278px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 345px;
+    margin-top: 61px;
+}
+
+.forma a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.bnt{
+    margin-top: 61px;
+    margin-left: 24px;
+    position: static;
+    width: 224px;
+    height: 52px;
+    left: 302px;
+    top: 0px;
+    background: #FF5A30;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bnt a{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.burea h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 130%;
+    display: flex;;
+    color: #1E212C;
+    margin-top: 120px;
+    margin-left: 560px;
+}
+
+.company{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #787A80;
+}

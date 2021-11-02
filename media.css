@@ -1,0 +1,16 @@
+/*для экрана до 1140*/
+@media(max-width:1140px){
+
+}
+
+@media(max-width:760px){
+    .fio{
+        font-size: 32px;
+    }
+    .info{
+        font-size: 14px;
+    }
+    .header{
+        width: 100%;
+    }
+}

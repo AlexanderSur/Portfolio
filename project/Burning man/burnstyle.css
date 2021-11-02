@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.header{
+    background: url('./img/header-bg.jpg') no-repeat;
+    background-size: cover;     /* растяжение картинки во весь экран*/
+    height: 1080px;
+}
+
+.cont{
+    display: flex;
+} 
+
+.head{
+   padding-top: 57px; 
+   padding-left: 216px;
+}
+
+.menu{
+    color:white;
+    font-size: 14px;
+    list-style: 21px;
+    padding-top: 71px;
+    margin-left: 69px;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;    /* все буквы большие */
+    margin-right: 40px;           /* раздвигает элементы */
+    letter-spacing: 0.1em;
+}
+
+.nomer{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    padding-top: 69px;
+    padding-left: 800px;
+}
+
+.text{
+    padding-left: 213px;
+    padding-top: 250px;
+}
+
+.textone{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.texttwo{
+    color: white;
+    font-size: 100px;
+    line-height: 147px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.knopka{
+    padding-top: 19px;
+    padding-left: 216px;
+}
+
+.knopka a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 47px;
+    padding-right: 47px; 
+    border: 2px solid #ccc;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 113px;
+    width: 1170px;
+    height: 802px;
+}
+
+.container h1{
+    color: #000;
+    font-size: 50px;
+    line-height: 73px;
+    text-transform: uppercase;
+    width: 1170px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info h2{
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 58px;
+}
+
+.info p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    color: #000000;
+    width: 564px;
+}
+
+.img{
+    padding-top: 67px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.foot{
+    padding-top: 114px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 80px;
+}
+
+.year{
+    margin-right: 55px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.who{
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+
+}
